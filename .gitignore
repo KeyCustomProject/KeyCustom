@@ -1,0 +1,62 @@
+# =========================
+# OS / Editor
+# =========================
+.DS_Store
+Thumbs.db
+*.log
+
+# IntelliJ
+.idea/
+*.iml
+
+# VSCode
+.vscode/
+
+# =========================
+# Build
+# =========================
+/build/
+/out/
+/target/
+
+# Gradle
+.gradle/
+!gradle/wrapper/gradle-wrapper.jar
+
+# =========================
+# Java
+# =========================
+*.class
+
+# =========================
+# Environment / Secrets (🔥 중요)
+# =========================
+.env
+.env.*
+
+# Spring config (민감정보 포함 가능)
+src/main/resources/application.properties
+src/main/resources/application.yml
+src/main/resources/application-*.yml
+
+# Firebase / Google Cloud
+src/main/resources/serviceAccountKey.json
+
+# =========================
+# Logs
+# =========================
+logs/
+*.log
+
+# =========================
+# Node
+# =========================
+node_modules/
+dist/
+.next/
+
+# =========================
+# Misc
+# =========================
+*.swp
+*.swo
